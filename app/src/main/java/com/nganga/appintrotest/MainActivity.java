@@ -1,12 +1,16 @@
 package com.nganga.appintrotest;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +24,11 @@ public class MainActivity extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
+
+    /*public void startCustomIntro(View v){
+        Intent intent = new Intent(this, FirstIntro.class);
+        startActivity(intent);
+    }*/
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
