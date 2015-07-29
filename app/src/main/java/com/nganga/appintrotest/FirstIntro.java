@@ -29,7 +29,7 @@ public class FirstIntro extends AppIntro {
 
         // Hide Skip/Done button
         showSkipButton(false);
-        showDoneButton(false);
+        showDoneButton(true);
 
         // Turn vibration on and set intensity
         // NOTE: you will probably need to ask VIBRATE permesssion in Manifest
