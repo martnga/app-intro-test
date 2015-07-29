@@ -15,9 +15,9 @@ public class FirstIntro extends AppIntro {
 
         // Instead of fragments, you can also use our default slide
         // Just set a title, description, background and image. AppIntro will do the rest
-        addSlide(AppIntroFragment.newInstance("Hello", "Welcome To A New World", image, background_colour));
-        addSlide(AppIntroFragment.newInstance("Greetings", "A Reason To Be Happy", image, background_colour));
-        addSlide(AppIntroFragment.newInstance("Finally", "Now You Are Set To A New World Of Happiness", image, background_colour));
+        addSlide(AppIntroFragment.newInstance("Hello", "Welcome To A New World", R.drawable.hello, R.color.material_deep_teal_500));
+        addSlide(AppIntroFragment.newInstance("Greetings", "A Reason To Be Happy", R.drawable.one, R.color.material_deep_teal_500));
+        addSlide(AppIntroFragment.newInstance("Finally", "Now You Are Set To A New World Of Happiness", R.drawable.two, R.color.material_deep_teal_500));
 
         // OPTIONAL METHODS
         // Override bar/separator color
